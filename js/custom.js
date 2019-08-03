@@ -14,5 +14,8 @@ $(document).ready(function () {
 
     //fancybox
     $('.js-fancybox').fancybox();
-});
 
+    $(window).load(function(){
+        $('body').addClass('g-show');
+    })
+});

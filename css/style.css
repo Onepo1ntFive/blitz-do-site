@@ -132,6 +132,11 @@ body {
   line-height: 1.75;
   background-color: #333333;
   color: #111111;
+  opacity: 0;
+  transition: opacity .25s ease-out;
+}
+body.g-show {
+  opacity: 1;
 }
 
 h1,
