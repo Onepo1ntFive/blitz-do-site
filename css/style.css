@@ -118,15 +118,19 @@ General Styles
 ------------------------*/
 html {
   font-size: 62.5%;
+  height: 100%;
 }
 
 * { padding: 0; margin: 0; }
 
 
 body {
+  height: 100%;
+  min-height: 800px;
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   line-height: 1.75;
+  background-color: #333333;
   color: #111111;
 }
 
@@ -528,8 +532,12 @@ Navbar Styles
 /*----------------------------------------
 Banner Styles
 ----------------------------------------*/
+.banner {
+  height: calc(100% - 74px);
+}
 .banner-item {
-  height: 92.4vh;
+  /* height: 92.4vh; */
+  height: 100%;
   background-position: center top;
   background-attachment: fixed;
   background-size: cover;
@@ -556,7 +564,6 @@ Banner Styles
   right: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  margin-top: 50px;
 }
 .banner-content .banner-text-content {
   margin-top: 30px;
@@ -1619,4 +1626,8 @@ Blog Single Page Styles
 .widget .social-media a:hover {
   color: #2196f3;
   text-decoration: none;
+}
+/* fancybox overla styles */
+body.fancybox-active {
+  height: 100%;
 }

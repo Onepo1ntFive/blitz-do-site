@@ -11,5 +11,8 @@ $(document).ready(function () {
     $(window).on('resize orientationchange', function () {
         mobileNavigatin();
     });
+
+    //fancybox
+    $('.js-fancybox').fancybox();
 });
 

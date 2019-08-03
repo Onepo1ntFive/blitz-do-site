@@ -188,8 +188,11 @@ All responsive css rule
   }
 
   /*** --- ***/
+  .banner {
+    height: calc(100% - 102px);
+  } 
   .banner-item {
-    height: 600px;
+    /* height: 600px; */
   }
 
   .banner-content .banner-text-content {
@@ -426,6 +429,14 @@ All responsive css rule
     font-size: 3rem;
   }
 
+  .button-group .btn {
+    display: block;
+    width: 100%;
+  }
+  .button-group .btn + .btn {
+    margin-top: 10px;
+    margin-left: 0;
+  }
   .btn-download {
     display: block;
     width: 100%;
