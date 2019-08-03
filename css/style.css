@@ -1247,6 +1247,9 @@ Footer Styles
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
 }
+.footer-nav img {
+  height: 32px;
+}
 
 /*--------------------------------------------------
 Blog Page Styles

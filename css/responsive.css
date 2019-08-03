@@ -188,9 +188,6 @@ All responsive css rule
   }
 
   /*** --- ***/
-  .banner {
-    height: calc(100% - 102px);
-  } 
   .banner-item {
     /* height: 600px; */
   }
@@ -302,6 +299,9 @@ All responsive css rule
   }
 }
 @media (max-width: 767px) {
+  body {
+    min-height: 570px;
+  }
   .navbar-default {
     min-height: 60px;
     background-color: #111111;
@@ -331,6 +331,7 @@ All responsive css rule
   .feature:first-child {
     margin-top: 0;
   }
+  
   .col-sm-6:last-child .feature {
     margin-top: 40px;
   }
@@ -422,6 +423,19 @@ All responsive css rule
 
   .client-logo {
     width: 33.333333%;
+  }
+
+  .banner {
+    height: calc(100% - 76px);
+  } 
+
+  .footer-nav img {
+    height: 20px;
+  }
+
+  .copyright-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 @media (max-width: 579px) {
